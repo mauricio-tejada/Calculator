@@ -13,55 +13,56 @@
 
 </head>
 
-<body>
+<body class="t1-bg-main">
   <div class="container">
 
-    <header class="header">
+    <header class="header t1-header">
       <h2 class="title">calc</h2>
       <h2 class="theme-title">theme</h2>
       <div class="theme">
         <table>
-        <tr class="theme-indicator">
-          <th>1</th>
-          <th>2</th>
-          <th>3</th>
-        </tr>
-        <tr class="theme-selector">
-          <td colspan="3">
-            <button></button>
-            <button></button>
-            <button></button>
+          <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+          </tr>
+          <tr>
+            <td colspan="3">
+            <form>
+              <input type="radio" id="theme1" name="theme" value="theme1">
+              <input type="radio" id="theme2" name="theme" value="theme2">
+              <input type="radio" id="theme3" name="theme" value="theme3">
+            </form>
           </td>
-          
-        </tr>
+          </tr>
         </table>
       </div>
     </header>
 
-    <div class="display">
-      <div previous-operand class="previous-op">123</div>
-      <div current-operand class="current-op">123</div>
+    <div class="display t1-display">
+      <div previous-operand class="previous-op">654</div>
+      <div current-operand class="current-op">455</div>
     </div>
 
-    <div class="keyboard">
-      <button data-number class="button">7</button>
-      <button data-number class="button">8</button>
-      <button data-number class="button">9</button>
-      <button data-del class="del-btn">del</button>
-      <button data-number class="button">4</button>
-      <button data-number class="button">5</button>
-      <button data-number class="button">6</button>
-      <button data-operation class="button">+</button>
-      <button data-number class="button">1</button>
-      <button data-number class="button">2</button>
-      <button data-number class="button">3</button>
-      <button data-operation class="button">-</button>
-      <button data-number class="button">.</button>
-      <button data-number class="button">0</button>
-      <button data-operation class="button">/</button>
-      <button data-operation class="button">*</button>
-      <button data-reset class="reset-btn">reset</button>
-      <button data-equal class="equal-btn">=</button>
+    <div class="keyboard t1-keyboard">
+      <button data-number class="t1-button">7</button>
+      <button data-number class="t1-button">8</button>
+      <button data-number class="t1-button">9</button>
+      <button data-del class="t1-del-btn">del</button>
+      <button data-number class="t1-button">4</button>
+      <button data-number class="t1-button">5</button>
+      <button data-number class="t1-button">6</button>
+      <button data-operation class="t1-button">+</button>
+      <button data-number class="t1-button">1</button>
+      <button data-number class="t1-button">2</button>
+      <button data-number class="t1-button">3</button>
+      <button data-operation class="t1-button">-</button>
+      <button data-number class="t1-button">.</button>
+      <button data-number class="t1-button">0</button>
+      <button data-operation class="t1-button">/</button>
+      <button data-operation class="t1-button">*</button>
+      <button data-reset class="t1-reset-btn">reset</button>
+      <button data-equal class="t1-equal-btn">=</button>
     </div>
 
   </div>

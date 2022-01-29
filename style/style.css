@@ -1,10 +1,61 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&family=Spartan:wght@100;300;400;800;900&display=swap");
+.t1-bg-main {
+  background-color: #3a4764;
+}
+
+.t2-bg-main {
+  background-color: #e6e6e6;
+}
+
+.t3-bg-main {
+  background-color: #160628;
+}
+
+.t1-header {
+  color: white;
+}
+
+.t2-header {
+  color: #35352c;
+}
+
+.t3-header {
+  color: #ffe53d;
+}
+
+.t1-display {
+  background-color: #182034;
+  color: white;
+}
+
+.t2-display {
+  background-color: #ededed;
+  color: #35352c;
+}
+
+.t3-display {
+  background-color: #1d0934;
+  color: #ffe53d;
+}
+
+.t1-keyboard {
+  background-color: #232c43;
+}
+
+.t2-keyboard {
+  background-color: #d1cccc;
+}
+
+.t3-keyboard {
+  background-color: #1d0934;
+}
+
 * {
   font-family: "Spartan";
   font-weight: 600;
 }
 
-body {
+.body {
   margin: 0;
   padding: 0;
   width: 100vw;
@@ -18,7 +69,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #3a4764;
 }
 
 .container {
@@ -37,7 +87,6 @@ body {
 .header {
   margin: 2%;
   height: 70px;
-  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -66,34 +115,21 @@ body {
   font-weight: 400;
 }
 
-.theme-indicator {
-  font-size: .5rem;
-}
-
-.theme-selector {
-  background-color: #232c43;
-}
-
-.theme-selector td {
+form {
   border-radius: 10px;
+  background-color: red;
 }
 
-.theme-selector td button {
-  margin-top: 2px;
-  height: 15px;
-  cursor: pointer;
-  border-radius: 50%;
-}
-
-table {
-  border-collapse: collapse;
+th {
+  width: 33.33%;
+  font-weight: 500;
+  font-size: .6rem;
 }
 
 .display {
   padding: 3% 5%;
   margin: 0 2%;
   border-radius: 10px;
-  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -108,7 +144,6 @@ table {
       -ms-flex-align: end;
           align-items: flex-end;
   height: 80px;
-  background-color: #182034;
 }
 
 .display .previous-op {
@@ -139,10 +174,9 @@ table {
   -ms-grid-rows: (1fr)[5];
       grid-template-rows: repeat(5, 1fr);
   gap: 5% 5%;
-  background-color: #232c43;
 }
 
-.button {
+.t1-button {
   width: 100%;
   height: 40px;
   font-size: 1.1rem;
@@ -157,13 +191,55 @@ table {
   color: #444b5a;
 }
 
-.button:active {
+.t1-button:active {
   padding: 4px 0 0 4px;
   -webkit-box-shadow: inset 4px 4px #b4a597, 0 4px #eae3dc;
           box-shadow: inset 4px 4px #b4a597, 0 4px #eae3dc;
 }
 
-.reset-btn {
+.t2-button {
+  width: 100%;
+  height: 40px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 0;
+  -webkit-box-shadow: 0 4px #a69d91;
+          box-shadow: 0 4px #a69d91;
+  background-color: #e5e4e1;
+  color: white;
+}
+
+.t2-button:active {
+  padding: 4px 0 0 4px;
+  -webkit-box-shadow: inset 4px 4px #a69d91, 0 4px #e5e4e1;
+          box-shadow: inset 4px 4px #a69d91, 0 4px #e5e4e1;
+}
+
+.t3-button {
+  width: 100%;
+  height: 40px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 0;
+  -webkit-box-shadow: 0 4px #871c9c;
+          box-shadow: 0 4px #871c9c;
+  background-color: #341c4f;
+  color: #1b2428;
+}
+
+.t3-button:active {
+  padding: 4px 0 0 4px;
+  -webkit-box-shadow: inset 4px 4px #871c9c, 0 4px #341c4f;
+          box-shadow: inset 4px 4px #871c9c, 0 4px #341c4f;
+}
+
+.t1-reset-btn, .t1-del-btn {
   width: 100%;
   height: 40px;
   font-size: 1.1rem;
@@ -176,12 +252,75 @@ table {
           box-shadow: 0 4px #404e72;
   background-color: #637097;
   color: white;
+}
+
+.t1-reset-btn:active, .del-btn:active {
+  padding: 4px 0 0 4px;
+  -webkit-box-shadow: inset 4px 4px #404e72, 0 4px #637097;
+          box-shadow: inset 4px 4px #404e72, 0 4px #637097;
+}
+
+.t1-reset-btn {
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-column: 1 / 3;
 }
 
-.equal-btn {
+.t2-reset-btn, .t2-del-btn {
+  width: 100%;
+  height: 40px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 0;
+  -webkit-box-shadow: 0 4px #1b5f65;
+          box-shadow: 0 4px #1b5f65;
+  background-color: #377f86;
+  color: #35352c;
+}
+
+.t2-reset-btn:active, .t2-del-btn:active {
+  padding: 4px 0 0 4px;
+  -webkit-box-shadow: inset 4px 4px #1b5f65, 0 4px #377f86;
+          box-shadow: inset 4px 4px #1b5f65, 0 4px #377f86;
+}
+
+.t2-reset-btn {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 / 3;
+}
+
+.t3-reset-btn, .t3-del-btn {
+  width: 100%;
+  height: 40px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 0;
+  -webkit-box-shadow: 0 4px #bc15f4;
+          box-shadow: 0 4px #bc15f4;
+  background-color: #58077d;
+  color: #ffe53d;
+}
+
+.t3-reset-btn:active, .t3-del-btn:active {
+  padding: 4px 0 0 4px;
+  -webkit-box-shadow: inset 4px 4px #bc15f4, 0 4px #58077d;
+          box-shadow: inset 4px 4px #bc15f4, 0 4px #58077d;
+}
+
+.t3-reset-btn {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 / 3;
+}
+
+.t1-equal-btn {
   width: 100%;
   height: 40px;
   font-size: 1.1rem;
@@ -199,7 +338,13 @@ table {
   grid-column: 3 / 5;
 }
 
-.del-btn {
+.t1-equal-btn:active {
+  padding: 4px 0 0 4px;
+  -webkit-box-shadow: inset 4px 4px #93261a, 0 4px #d03f2f;
+          box-shadow: inset 4px 4px #93261a, 0 4px #d03f2f;
+}
+
+.t2-equal-btn {
   width: 100%;
   height: 40px;
   font-size: 1.1rem;
@@ -208,9 +353,42 @@ table {
   text-transform: uppercase;
   text-align: center;
   border: 0;
-  -webkit-box-shadow: 0 4px #404e72;
-          box-shadow: 0 4px #404e72;
-  background-color: #637097;
-  color: white;
+  -webkit-box-shadow: 0 4px #893901;
+          box-shadow: 0 4px #893901;
+  background-color: #ca5502;
+  color: #35352c;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-column: 3 / 5;
+}
+
+.t2-equal-btn:active {
+  padding: 4px 0 0 4px;
+  -webkit-box-shadow: inset 4px 4px #893901, 0 4px #ca5502;
+          box-shadow: inset 4px 4px #893901, 0 4px #ca5502;
+}
+
+.t3-equal-btn {
+  width: 100%;
+  height: 40px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 0;
+  -webkit-box-shadow: 0 4px #6cf9f2;
+          box-shadow: 0 4px #6cf9f2;
+  background-color: #00e0d1;
+  color: #ffe53d;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-column: 3 / 5;
+}
+
+.t3-equal-btn:active {
+  padding: 4px 0 0 4px;
+  -webkit-box-shadow: inset 4px 4px #6cf9f2, 0 4px #00e0d1;
+          box-shadow: inset 4px 4px #6cf9f2, 0 4px #00e0d1;
 }
 /*# sourceMappingURL=style.css.map */
