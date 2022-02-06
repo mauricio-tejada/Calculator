@@ -3,7 +3,9 @@
 const themes = document.getElementsByName('theme')
 themes[0].checked = true
 
+let labelTheme = document.querySelector('input[type="radio"]:checked').nextElementSibling
 
+const labels = document.querySelectorAll('label[input-label]')
 const body = document.querySelector('body')
 const header = document.querySelector('.header')
 const form = document.querySelector('form')
@@ -37,6 +39,9 @@ function addClass(theme) {
 
     operationButtons.forEach(e => e.classList.add(`${theme}-button`))
     numberButtons.forEach(e => e.classList.add(`${theme}-button`))
+
+    let labelTheme = document.querySelector('input[type="radio"]:checked').nextElementSibling
+    labelTheme.classList.add(`${theme}-label-theme`)
 }
 
 function removeClass(theme) {
@@ -48,9 +53,12 @@ function removeClass(theme) {
     equalButton.classList.remove(`${theme}-equal-btn`)
     deleteButton.classList.remove(`${theme}-del-btn`)
     resetButton.classList.remove(`${theme}-reset-btn`)
-
+    
+    labels.forEach(e => e.classList.remove(`${theme}-label-theme`))
     operationButtons.forEach(e => e.classList.remove(`${theme}-button`))
     numberButtons.forEach(e => e.classList.remove(`${theme}-button`))
+
+    
 }
 
 function changeTheme() {
