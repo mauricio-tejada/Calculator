@@ -71,14 +71,14 @@ $t3-text-3: hsl(0, 0, 100%);
     text-align: center;
     border: 0;
 
-    box-shadow: 0 4px $shadow;
+    box-shadow: 0 2.5px $shadow;
     background-color: $bg;
     color: $font;
 }
 
 @mixin btn-pattern-active ($bg, $shadow) {
-    padding: 4px 0 0 4px;
-    box-shadow: inset 4px 4px $shadow, 0 4px $bg;
+    padding: 2.5px 0 0 2.5px;
+    box-shadow: inset 2.5px 2.5px $shadow, 0 2.5px $bg;
 }
 
 * {

@@ -226,16 +226,16 @@ th label {
   text-transform: uppercase;
   text-align: center;
   border: 0;
-  -webkit-box-shadow: 0 4px #b4a597;
-          box-shadow: 0 4px #b4a597;
+  -webkit-box-shadow: 0 2.5px #b4a597;
+          box-shadow: 0 2.5px #b4a597;
   background-color: #eae3dc;
   color: #444b5a;
 }
 
 .t1-button:active {
-  padding: 4px 0 0 4px;
-  -webkit-box-shadow: inset 4px 4px #b4a597, 0 4px #eae3dc;
-          box-shadow: inset 4px 4px #b4a597, 0 4px #eae3dc;
+  padding: 2.5px 0 0 2.5px;
+  -webkit-box-shadow: inset 2.5px 2.5px #b4a597, 0 2.5px #eae3dc;
+          box-shadow: inset 2.5px 2.5px #b4a597, 0 2.5px #eae3dc;
 }
 
 .t2-button {
@@ -247,16 +247,16 @@ th label {
   text-transform: uppercase;
   text-align: center;
   border: 0;
-  -webkit-box-shadow: 0 4px #a69d91;
-          box-shadow: 0 4px #a69d91;
+  -webkit-box-shadow: 0 2.5px #a69d91;
+          box-shadow: 0 2.5px #a69d91;
   background-color: #e5e4e1;
   color: #35352c;
 }
 
 .t2-button:active {
-  padding: 4px 0 0 4px;
-  -webkit-box-shadow: inset 4px 4px #a69d91, 0 4px #e5e4e1;
-          box-shadow: inset 4px 4px #a69d91, 0 4px #e5e4e1;
+  padding: 2.5px 0 0 2.5px;
+  -webkit-box-shadow: inset 2.5px 2.5px #a69d91, 0 2.5px #e5e4e1;
+          box-shadow: inset 2.5px 2.5px #a69d91, 0 2.5px #e5e4e1;
 }
 
 .t3-button {
@@ -268,16 +268,16 @@ th label {
   text-transform: uppercase;
   text-align: center;
   border: 0;
-  -webkit-box-shadow: 0 4px #871c9c;
-          box-shadow: 0 4px #871c9c;
+  -webkit-box-shadow: 0 2.5px #871c9c;
+          box-shadow: 0 2.5px #871c9c;
   background-color: #341c4f;
   color: #ffe53d;
 }
 
 .t3-button:active {
-  padding: 4px 0 0 4px;
-  -webkit-box-shadow: inset 4px 4px #871c9c, 0 4px #341c4f;
-          box-shadow: inset 4px 4px #871c9c, 0 4px #341c4f;
+  padding: 2.5px 0 0 2.5px;
+  -webkit-box-shadow: inset 2.5px 2.5px #871c9c, 0 2.5px #341c4f;
+          box-shadow: inset 2.5px 2.5px #871c9c, 0 2.5px #341c4f;
 }
 
 .t1-reset-btn, .t1-del-btn {
@@ -289,16 +289,16 @@ th label {
   text-transform: uppercase;
   text-align: center;
   border: 0;
-  -webkit-box-shadow: 0 4px #404e72;
-          box-shadow: 0 4px #404e72;
+  -webkit-box-shadow: 0 2.5px #404e72;
+          box-shadow: 0 2.5px #404e72;
   background-color: #637097;
   color: white;
 }
 
 .t1-reset-btn:active, .del-btn:active {
-  padding: 4px 0 0 4px;
-  -webkit-box-shadow: inset 4px 4px #404e72, 0 4px #637097;
-          box-shadow: inset 4px 4px #404e72, 0 4px #637097;
+  padding: 2.5px 0 0 2.5px;
+  -webkit-box-shadow: inset 2.5px 2.5px #404e72, 0 2.5px #637097;
+          box-shadow: inset 2.5px 2.5px #404e72, 0 2.5px #637097;
 }
 
 .t1-reset-btn {
@@ -316,16 +316,16 @@ th label {
   text-transform: uppercase;
   text-align: center;
   border: 0;
-  -webkit-box-shadow: 0 4px #1b5f65;
-          box-shadow: 0 4px #1b5f65;
+  -webkit-box-shadow: 0 2.5px #1b5f65;
+          box-shadow: 0 2.5px #1b5f65;
   background-color: #377f86;
   color: white;
 }
 
 .t2-reset-btn:active, .t2-del-btn:active {
-  padding: 4px 0 0 4px;
-  -webkit-box-shadow: inset 4px 4px #1b5f65, 0 4px #377f86;
-          box-shadow: inset 4px 4px #1b5f65, 0 4px #377f86;
+  padding: 2.5px 0 0 2.5px;
+  -webkit-box-shadow: inset 2.5px 2.5px #1b5f65, 0 2.5px #377f86;
+          box-shadow: inset 2.5px 2.5px #1b5f65, 0 2.5px #377f86;
 }
 
 .t2-reset-btn {
@@ -343,16 +343,16 @@ th label {
   text-transform: uppercase;
   text-align: center;
   border: 0;
-  -webkit-box-shadow: 0 4px #bc15f4;
-          box-shadow: 0 4px #bc15f4;
+  -webkit-box-shadow: 0 2.5px #bc15f4;
+          box-shadow: 0 2.5px #bc15f4;
   background-color: #58077d;
   color: white;
 }
 
 .t3-reset-btn:active, .t3-del-btn:active {
-  padding: 4px 0 0 4px;
-  -webkit-box-shadow: inset 4px 4px #bc15f4, 0 4px #58077d;
-          box-shadow: inset 4px 4px #bc15f4, 0 4px #58077d;
+  padding: 2.5px 0 0 2.5px;
+  -webkit-box-shadow: inset 2.5px 2.5px #bc15f4, 0 2.5px #58077d;
+          box-shadow: inset 2.5px 2.5px #bc15f4, 0 2.5px #58077d;
 }
 
 .t3-reset-btn {
@@ -370,8 +370,8 @@ th label {
   text-transform: uppercase;
   text-align: center;
   border: 0;
-  -webkit-box-shadow: 0 4px #93261a;
-          box-shadow: 0 4px #93261a;
+  -webkit-box-shadow: 0 2.5px #93261a;
+          box-shadow: 0 2.5px #93261a;
   background-color: #d03f2f;
   color: white;
   -ms-grid-column: 3;
@@ -380,9 +380,9 @@ th label {
 }
 
 .t1-equal-btn:active {
-  padding: 4px 0 0 4px;
-  -webkit-box-shadow: inset 4px 4px #93261a, 0 4px #d03f2f;
-          box-shadow: inset 4px 4px #93261a, 0 4px #d03f2f;
+  padding: 2.5px 0 0 2.5px;
+  -webkit-box-shadow: inset 2.5px 2.5px #93261a, 0 2.5px #d03f2f;
+          box-shadow: inset 2.5px 2.5px #93261a, 0 2.5px #d03f2f;
 }
 
 .t2-equal-btn {
@@ -394,8 +394,8 @@ th label {
   text-transform: uppercase;
   text-align: center;
   border: 0;
-  -webkit-box-shadow: 0 4px #893901;
-          box-shadow: 0 4px #893901;
+  -webkit-box-shadow: 0 2.5px #893901;
+          box-shadow: 0 2.5px #893901;
   background-color: #ca5502;
   color: white;
   -ms-grid-column: 3;
@@ -404,9 +404,9 @@ th label {
 }
 
 .t2-equal-btn:active {
-  padding: 4px 0 0 4px;
-  -webkit-box-shadow: inset 4px 4px #893901, 0 4px #ca5502;
-          box-shadow: inset 4px 4px #893901, 0 4px #ca5502;
+  padding: 2.5px 0 0 2.5px;
+  -webkit-box-shadow: inset 2.5px 2.5px #893901, 0 2.5px #ca5502;
+          box-shadow: inset 2.5px 2.5px #893901, 0 2.5px #ca5502;
 }
 
 .t3-equal-btn {
@@ -418,8 +418,8 @@ th label {
   text-transform: uppercase;
   text-align: center;
   border: 0;
-  -webkit-box-shadow: 0 4px #6cf9f2;
-          box-shadow: 0 4px #6cf9f2;
+  -webkit-box-shadow: 0 2.5px #6cf9f2;
+          box-shadow: 0 2.5px #6cf9f2;
   background-color: #00e0d1;
   color: #1b2428;
   -ms-grid-column: 3;
@@ -428,8 +428,8 @@ th label {
 }
 
 .t3-equal-btn:active {
-  padding: 4px 0 0 4px;
-  -webkit-box-shadow: inset 4px 4px #6cf9f2, 0 4px #00e0d1;
-          box-shadow: inset 4px 4px #6cf9f2, 0 4px #00e0d1;
+  padding: 2.5px 0 0 2.5px;
+  -webkit-box-shadow: inset 2.5px 2.5px #6cf9f2, 0 2.5px #00e0d1;
+          box-shadow: inset 2.5px 2.5px #6cf9f2, 0 2.5px #00e0d1;
 }
 /*# sourceMappingURL=style.css.map */
