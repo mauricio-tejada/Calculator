@@ -110,13 +110,13 @@ $t3-text-2: hsl(52, 100%, 62%);
     color: $t3-text-2;
 }
 
-.t1-keyboard {
+.t1-keyboard, .t1-form {
     background-color: $bg-keyboard;
 }
-.t2-keyboard {
+.t2-keyboard, .t2-form {
     background-color: $t2-bg-keyboard;
 }
-.t3-keyboard {
+.t3-keyboard, .t3-form {
     background-color: $t3-bg-keyboard;
 }
 
@@ -175,7 +175,17 @@ $t3-text-2: hsl(52, 100%, 62%);
 
 form {
     border-radius: 10px;
-   background-color: red;
+}
+
+.input {
+    cursor: pointer;
+}
+
+.input:before {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 3px solid chartreuse;
 }
 
 th {

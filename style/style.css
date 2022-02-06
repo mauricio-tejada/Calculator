@@ -38,15 +38,15 @@
   color: #ffe53d;
 }
 
-.t1-keyboard {
+.t1-keyboard, .t1-form {
   background-color: #232c43;
 }
 
-.t2-keyboard {
+.t2-keyboard, .t2-form {
   background-color: #d1cccc;
 }
 
-.t3-keyboard {
+.t3-keyboard, .t3-form {
   background-color: #1d0934;
 }
 
@@ -117,7 +117,17 @@
 
 form {
   border-radius: 10px;
-  background-color: red;
+}
+
+.input {
+  cursor: pointer;
+}
+
+.input:before {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border: 3px solid chartreuse;
 }
 
 th {
