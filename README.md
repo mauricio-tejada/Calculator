@@ -83,9 +83,32 @@ For calculator i made a class Calculator with all methods necessary for calculat
 
 ```js
 class Calculator {
+    constructor(previousOperandTextElement, currentOperandTextElement) {
+    }
+
+    formatDisplayNumber(number) {
+    }
+
+    delete() {
+    }
+
+    calculate() {
+    }
+
+    chooseOperation(operation) {
+    }
+
+    appendNumber(number) {
+    }
+
+    clear() {
+    }
+
+    updateDisplay() {
+    }
 }
 
-const calculator = new Calculator (previousOperandTextElement, currentOperandTextElement)
+const calculator = new Calculator(previousOperandTextElement, currentOperandTextElement)
 ```
 ### What I learned
 
