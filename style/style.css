@@ -295,7 +295,7 @@ th label {
   color: white;
 }
 
-.t1-reset-btn:active, .del-btn:active {
+.t1-reset-btn:active, .t1-del-btn:active {
   padding: 2.5px 0 0 2.5px;
   -webkit-box-shadow: inset 2.5px 2.5px #404e72, 0 2.5px #637097;
           box-shadow: inset 2.5px 2.5px #404e72, 0 2.5px #637097;
@@ -431,5 +431,12 @@ th label {
   padding: 2.5px 0 0 2.5px;
   -webkit-box-shadow: inset 2.5px 2.5px #6cf9f2, 0 2.5px #00e0d1;
           box-shadow: inset 2.5px 2.5px #6cf9f2, 0 2.5px #00e0d1;
+}
+
+a {
+  width: 350px;
+  height: 450px;
+  width: auto;
+  height: auto;
 }
 /*# sourceMappingURL=style.css.map */

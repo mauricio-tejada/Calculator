@@ -22,11 +22,12 @@ const resetButton = document.querySelector("[data-reset]")
 const previousOperandTextElement = document.querySelector("[previous-operand]")
 const currentOperandTextElement = document.querySelector("[current-operand]")
 
-
+//function that return the radio input that is checked
 function verifyChecked() {
     return document.querySelector('input[type="radio"]:checked').value
 }
 
+//funcion that add class to their respective elements
 function addClass(theme) {
     body.classList.add(`${theme}-bg-main`)
     header.classList.add(`${theme}-header`)
@@ -44,6 +45,7 @@ function addClass(theme) {
     labelTheme.classList.add(`${theme}-label-theme`)
 }
 
+//function that remove all the others theme class of the elements that will receive a new theme class
 function removeClass(theme) {
     body.classList.remove(`${theme}-bg-main`)
     header.classList.remove(`${theme}-header`)
@@ -61,6 +63,7 @@ function removeClass(theme) {
     
 }
 
+//function that change the theme, removing the previous theme and applying the new
 function changeTheme() {
     if (verifyChecked() === 'theme1') {
         removeClass('t2')
@@ -190,10 +193,7 @@ class Calculator {
             this.currentOperand
         );
     }
-
-
 }
-
 
 const calculator = new Calculator(previousOperandTextElement, currentOperandTextElement)
 
