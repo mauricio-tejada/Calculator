@@ -6,7 +6,7 @@ The calculator is avaiable [in this link](https://mauricio-tejada.github.io/Calc
 
 <br>
 
-## Sumary
+## Summary
 
 - [Overview](#overview)
   - [Links](#links)
